@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: #AC1754;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 40px;
+    margin-right: 8px;
+}
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+.icons {
+    display: flex;
+    gap: 20px;
+}
+.icons i {
+    cursor: pointer;
+    color: black;
+}
+/* 
+ */
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffddcc;
+    color: #333;
+  }
+
+  .banner img {
+    width: 90%;
+    max-width: 1300px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+  }
+/*  */
+
+  .center-content {
+    text-align: center; /* Ensure text is also centered */
+  }
+  /*  */
+  .footer {
+    background-color: #F37199;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  .footer-content {
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    text-align: left;
+    flex: 1;
+  }
+  .footer-left img {
+    max-width: 150px;
+  }
+  .footer-left p {
+    color: #333;
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  .footer-left p:last-child {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 20px;
+  }
+  .footer-right {
+    text-align: right;
+    flex: 1;
+  }
+  .footer-right h4 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .footer-right ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  .footer-right li a {
+    text-decoration: none;
+    color: #555;
+    display: block;
+    padding: 5px 0;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .social-icons img {
+    width: 20px;
+    margin-left: 10px;
+  }
